@@ -47,6 +47,7 @@ int main(int argc, char **argv)
 	if (!found){
 		cout << "[-1] didn't find\n";
 	}
+	file.close();
 	return 0;
 }
 

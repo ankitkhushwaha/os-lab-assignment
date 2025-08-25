@@ -115,7 +115,8 @@ int main(int argc, char **argv)
 	{
 		cout << "[" << getpid() << "] didn't find\n";
 	}
-
+	free(string);
+	file.close();
 	return 0;
 }
 
